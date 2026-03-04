@@ -86,7 +86,7 @@
             }
             else{
                 isLoading.value = false;
-                noty.error("Failed to send message");
+                notyf.error("Failed to send message");
             }
         }
         catch(error){
@@ -100,7 +100,8 @@
     
 
 
-    const SITE_KEY = '';  
+    const SITE_KEY = '6LeQY38sAAAAABE38t-rNRtcU9p0RTnp5epk8SRL
+';  
 
     const recaptchaContainer = ref(null);
     const recaptchaWidgetId = ref(null);
