@@ -32,7 +32,7 @@
 	                    <img src="/images/tools/react.svg" class="img-fluid">
 	                </div>
 	                <div class="col-6 tools-img">
-	                    <img src="./images/tools/nodejs.svg" class="img-fluid">
+	                    <img src="/images/tools/nodejs.svg" class="img-fluid">
 	                </div>
 	            </div>
 	        </div>
@@ -41,16 +41,16 @@
 	            <div class="row tools-img gx-5">
 
 	                <div class="col-6 tools-img">
-	                    <img src="./images/tools/heroku.svg" class="img-fluid">
+	                    <img src="/images/tools/heroku.svg" class="img-fluid">
 	                </div>
 	                <div class="col-6 tools-img">
-	                    <img src="./images/tools/git.svg" class="img-fluid">
+	                    <img src="/images/tools/git.svg" class="img-fluid">
 	                </div>
 	                <div class="col-6 tools-img">
-	                    <img src="./images/tools/postman.svg" class="img-fluid">
+	                    <img src="/images/tools/postman.svg" class="img-fluid">
 	                </div>
 	                <div class="col-6 tools-img">
-	                    <img src="./images/tools/sublime.svg" class="img-fluid">
+	                    <img src="/images/tools/sublime.svg" class="img-fluid">
 	                </div>
 	            </div>
 	        </div>
