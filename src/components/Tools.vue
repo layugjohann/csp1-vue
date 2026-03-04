@@ -6,7 +6,7 @@
 	            <h3 class="my-3 text-center">Front End</h3>
 	            <div class="row justify-content-center tools-img gx-5">
 	                <div class="col-6 tools-img">
-	                    <img src="./images/tools/html.svg" class="img-fluid">
+	                    <img src="/images/tools/html.svg" class="img-fluid">
 	                </div>
 	                <div class="col-6 tools-img">
 	                    <img src="/images/tools/css.svg" class="img-fluid">
