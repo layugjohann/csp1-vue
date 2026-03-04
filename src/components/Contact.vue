@@ -24,12 +24,15 @@
                         </div>
                         <button type="submit" class="submit-btn pl-5 pr-5">Submit</button>
                     </div>
-                </form>
 
-                <!-- recaptcha checkbox -->
+
+                    <!-- recaptcha checkbox -->
                     <div class="d-flex justify-content-end mt-2">
                         <div ref="recaptchaContainer"></div>
                     </div>
+
+                    
+                </form>
                 
             </div>
         </div>
@@ -38,7 +41,7 @@
 
 <script setup>
 
-    import {ref, onMounted, onBeforeUnMount} from "vue";
+    import {ref, onMounted, onBeforeUnmount} from "vue";
 
     import {Notyf} from "notyf";
     import "notyf/notyf.min.css";
@@ -61,6 +64,7 @@
         // Check if reCAPTCHA token is present, return an error when not verified
         if(!recaptchaToken.value){
             notyf.error("Please verify that you are not a robot")
+            return;
         }
 
         isLoading.value = true;
@@ -105,8 +109,7 @@
     
 
 
-    const SITE_KEY = '6LeQY38sAAAAABE38t-rNRtcU9p0RTnp5epk8SRL
-';  
+    const SITE_KEY = '6LeQY38sAAAAABE38t-rNRtcU9p0RTnp5epk8SRL';
 
     const recaptchaContainer = ref(null);
     const recaptchaWidgetId = ref(null);
